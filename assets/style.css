@@ -1,0 +1,73 @@
+:root{
+    --primary:#99C03F;
+    --secondary:#63709C;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* hero section  */
+.hero {
+    background: url(bg_bggenerator_com.png) no-repeat center center;
+    background-size: cover;
+    min-height: 50vh;
+    
+}
+a.nav-link{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.section-title {
+    font-size: 3rem;
+    border-bottom: 5px solid var(--secondary);
+    width: 250px;
+    text-align: center;
+    margin: 5rem auto;
+}
+.skills-list{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+.skills-list i {
+    font-size: 4rem;
+    display: block;
+}
+.project-section{
+    background:#85aded;
+}
+.about-me{
+    background: pink;
+    padding: 5px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contact i {
+    font-size: 3rem;
+}
+.footer{
+    position: relative;
+
+}
+.up{
+    position: absolute;
+    right: 20px;
+    bottom:20px;
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
